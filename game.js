@@ -114,6 +114,8 @@ Sprite = function () {
 
   this.x     = 0;
   this.y     = 0;
+  this.color = 'yellow';
+  this.solid = true;
   this.rot   = 0;
   this.scale = 1;
 
@@ -392,6 +394,7 @@ Ship = function () {
 
   this.color = 'navy';
   this.solid = true;
+ 
 
   this.children.exhaust = new Sprite();
   this.children.exhaust.solid = true;
@@ -681,7 +684,7 @@ Asteroid = function () {
               -4, -10,
               -4,  -5]);
 
-  this.color = 'lightgray';
+  this.color = 'red';
   this.solid = true;
   this.visible = true;
   this.scale = 6;
