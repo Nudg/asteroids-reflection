@@ -114,7 +114,7 @@ Sprite = function () {
 
   this.x     = 0;
   this.y     = 0;
-  this.color = 'yellow';
+  this.color = 'green';
   this.solid = true;
   this.rot   = 0;
   this.scale = 1;
